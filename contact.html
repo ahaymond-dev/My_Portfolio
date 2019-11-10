@@ -1,28 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang=en>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Page</title>
-    <div class="myname">
-        <h1>
-            Austen Haymond
-        </h1>
-    </div>
-    <div class="topnav">
-        <a class="active" href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</head>
+    </head>
 <body>
+        <header>
+                <title>About Me</title>
+                    <div class="myname">
+                        <h1>
+                            Austen Haymond
+                        </h1>
+                    </div>
+                    <div class="topnav">
+                        <a class="nav" href="index.html">About</a>
+                        <a class="nav" href="portfolio.html">Portfolio</a>
+                        <a class="nav" href="contact.html">Contact</a>
+                    </div>
+     </header>
     <h2>
         Contact
     </h2>
     <hr>
+    <form action="forms.txt">
+        Name:
+        <br>
+        <input type="text" name="name" placeholder="John Smith" rows="1" style="width: 500px;">
+        <br>
+        Email:
+        <br>
+        <input type="text" name="email" placeholder="example@gmail.com" rows="1" style="width: 500px;">
+        <br>
+        Message:
+        <br>
+        <textarea name="message" style="width: 500px; height: 300px;"> 
+            
+        </textarea>    
+        <br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 <footer>
-    <a href="contact_es.html">Español</a>
+    <a class="lang" href="contact_es.html">Español</a>
 </footer>
 </html>
