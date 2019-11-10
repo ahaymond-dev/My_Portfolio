@@ -1,0 +1,18 @@
+.myname {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    float: left;
+    color: white;
+    background-color: teal;
+    
+}
+.topnav {
+    text-align: right;
+}
+#imgage {
+    float: left;
+}
+.body{
+    align-content: center;
+    width: 960px;
+
+}
