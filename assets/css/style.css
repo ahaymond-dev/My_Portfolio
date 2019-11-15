@@ -45,6 +45,8 @@ h2 {
     padding: 10px 20px 10px 20px;
     font-weight: bolder;
     font-size: 27px;
+    position: relative;
+    left:10px;
 }
 header {
     background-color: #ffffff;
@@ -141,12 +143,12 @@ a:link {
         margin: auto;
   }
   .example3 {
-        position: relative;
-        float: left;
-        padding: 2px;
-        border: 2px solid #4aaaa5;
-        margin: auto;
-        margin-bottom: 15px;
+    position: relative;
+    float: right;
+    padding: 2px;
+    border: 2px solid #4aaaa5;
+    margin: auto;
+    margin-bottom: 15px;
   }
   .example2 {
       position: relative;
@@ -156,12 +158,13 @@ a:link {
       margin: auto;
   }
   .example4 {
+      
       position: relative;
-      float: right;
-      padding: 2px;
-      border: 2px solid #4aaaa5;
-      margin: auto;
-      margin-bottom: 15px;
+        float: left;
+        padding: 2px;
+        border: 2px solid #4aaaa5;
+        margin: auto;
+        margin-bottom: 15px;
   }
   .portfolio {
       max-width: 960px;
@@ -172,9 +175,15 @@ a:link {
   }
   .logo {
     position: relative;
-    left: 290px;
-    padding: 2px;
-    border: 2px solid #4aaaa5;
-    margin: auto;
-    margin-bottom: 15px;
+    float: right;
+    margin-right: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1 {
+      float: left;
+      position: relative;
+      left: 30px;
+      top: 7px;
+      
   }
